@@ -1,0 +1,3 @@
+interface Coche {
+    void conducir();
+}

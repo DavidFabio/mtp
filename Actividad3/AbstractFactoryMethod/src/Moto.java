@@ -1,0 +1,3 @@
+interface Moto {
+    void manejar();
+}

@@ -10,7 +10,7 @@ public class OrdenadorFactory implements OrdenadorFactoryInterfaz {
         else if ((ram == "DDR4") && (capacidadram <= 8) && (discoduro == "SSD") && (capacidaddiscoduro <=1000) && (dimensionpantalla <=27) && (calidad == "Buena calidad")){
             return new OrdenadorTipoB(ram, capacidadram, discoduro, capacidaddiscoduro, dimensionpantalla, calidad);
         }
-        else if ((ram == "DDR5") && (capacidadram >= 8) && (discoduro == "NVME") && (capacidaddiscoduro >=1000) && (dimensionpantalla >=27) && (calidad == "Excelente calidad")){
+        else {
             return new OrdenadorTipoA(ram, capacidadram, discoduro, capacidaddiscoduro, dimensionpantalla, calidad);
         }
         
